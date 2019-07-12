@@ -17,4 +17,10 @@ function Header() {
   const date = document.createElement("span");
   date.classList.add("date");
   date.textContent = `SMARCH 28, 2019`;
+
+  const headTitle = document.createElement("h1");
+
+  const temperature = document.createElement("span");
+  temperature.classList.add("temp");
+  temperature.textContent(`98°`);
 }
