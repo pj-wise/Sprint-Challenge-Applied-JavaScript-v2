@@ -23,6 +23,7 @@ function Header() {
   date.textContent = `SMARCH 28, 2019`;
 
   const headTitle = document.createElement("h1");
+  headTitle.textContent = "Lambda Times";
 
   const temperature = document.createElement("span");
   temperature.classList.add("temp");
